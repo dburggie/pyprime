@@ -1,0 +1,20 @@
+pyprime is a python module containing utilities for dealing with primes.
+
+Submodules are describes below
+
+submodule_name -- Description
+    submodule_member_1 -- Description
+    ...
+...
+
+##### Sub Modules #####
+
+primegen -- for generating prime numbers
+    primesByMaxValue(MAX) -- returns python list of all primes less than MAX
+prime -- for creating png image where blue pixels are prime numbers
+    run(width, height, prefix = 'prime') -- generates widthxheight image
+cprime -- like prime above, but with colorful pixels
+    run(width, height, prefix = 'cprime')
+ulam -- generates ulam spiral in png image
+    run(width, height, spiral_size, prefix = 'ulam')
+            -- generates w x h image with spiral_size spiral inside`
