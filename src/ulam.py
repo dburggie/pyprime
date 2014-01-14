@@ -76,13 +76,11 @@ def run(width, height, spiral_size = None, name = 'ulam'):
         x = c[0]
         y = c[1]
         if i == next_prime:
-            print i, 'is a prime! drawing',x,y,_prime
             if not next_prime == final_prime:
                 prime_index += 1
                 next_prime = primes[prime_index]
             image.set_pixel(x,y,_prime)
         else:
-            print i, 'is not prime. drawing', x,y,_composite
             image.set_pixel(x,y,_composite)
         i += 1
     
