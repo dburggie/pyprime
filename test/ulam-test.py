@@ -1,3 +1,3 @@
-from ulam import run
+from pyprime import ulam
 
-run(100,100,80)
+ulam.run(100,100,80)
