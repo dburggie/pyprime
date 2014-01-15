@@ -1,3 +1,11 @@
 from pyprime import ulam
+import time
+import cProfile
 
-ulam.run(100,100,80)
+print '\n\nTimestamp', time.time()
+print '\n'
+
+def run():
+    ulam.run(1000,1000)
+
+cProfile.run('run()')
